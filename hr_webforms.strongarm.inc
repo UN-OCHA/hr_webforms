@@ -91,7 +91,7 @@ function hr_webforms_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_webform_pattern';
-  $strongarm->value = '[node:og-group-ref:url:path]/webform/[node:title]';
+  $strongarm->value = '[node:og-group-ref:0:url:path]/webform/[node:title]';
   $export['pathauto_node_webform_pattern'] = $strongarm;
 
   return $export;
